@@ -1,0 +1,1082 @@
+This is an error log file of the game server.
+You may use like `tail -f KKUTU_ERROR.log` to watch this.
+:8496 [2017-6-26 17:44:03] ERROR: SyntaxError: Invalid regular expression: /^?./: Nothing to repeat
+SyntaxError: Invalid regular expression: /^?./: Nothing to repeat
+    at new RegExp (<anonymous>)
+    at getWish (/Volumes/asdf/KKuTu/Server/lib/Game/games/classic.js:401:40)
+    at getWishList (/Volumes/asdf/KKuTu/Server/lib/Game/games/classic.js:386:26)
+    at /Volumes/asdf/KKuTu/Server/lib/Game/games/classic.js:349:7
+    at exports.Tail.go (/Volumes/asdf/KKuTu/Server/lib/sub/lizard.js:43:16)
+    at aft (/Volumes/asdf/KKuTu/Server/lib/Game/games/classic.js:483:8)
+    at /Volumes/asdf/KKuTu/Server/lib/Game/games/classic.js:489:22
+    at callback (/Volumes/asdf/KKuTu/Server/lib/sub/collection.js:316:13)
+    at Query.preCB (/Volumes/asdf/KKuTu/Server/lib/sub/collection.js:298:6)
+    at Query.handleReadyForQuery (/Volumes/asdf/KKuTu/Server/lib/node_modules/pg/lib/query.js:124:10):8496 [2017-6-26 17:47:41] ERROR: SyntaxError: Invalid regular expression: /^(?)./: Invalid group
+SyntaxError: Invalid regular expression: /^(?)./: Invalid group
+    at new RegExp (<anonymous>)
+    at produce (/Volumes/asdf/KKuTu/Server/lib/Game/games/classic.js:457:23)
+    at /Volumes/asdf/KKuTu/Server/lib/Game/games/classic.js:453:4
+    at callback (/Volumes/asdf/KKuTu/Server/lib/sub/collection.js:316:13)
+    at Query.preCB (/Volumes/asdf/KKuTu/Server/lib/sub/collection.js:298:6)
+    at Query.handleReadyForQuery (/Volumes/asdf/KKuTu/Server/lib/node_modules/pg/lib/query.js:124:10)
+    at Connection.<anonymous> (/Volumes/asdf/KKuTu/Server/lib/node_modules/pg/lib/client.js:178:19)
+    at emitOne (events.js:96:13)
+    at Connection.emit (events.js:191:7)
+    at Socket.<anonymous> (/Volumes/asdf/KKuTu/Server/lib/node_modules/pg/lib/connection.js:133:12):8496 [2017-6-26 23:48:27] ERROR: TypeError: Cannot read property '_id' of null
+TypeError: Cannot read property '_id' of null
+    at /Volumes/asdf/KKuTu/Server/lib/Game/games/jaqwi.js:62:26
+    at exports.Tail.go (/Volumes/asdf/KKuTu/Server/lib/sub/lizard.js:43:16)
+    at /Volumes/asdf/KKuTu/Server/lib/Game/games/jaqwi.js:249:21
+    at callback (/Volumes/asdf/KKuTu/Server/lib/sub/collection.js:316:13)
+    at Query.preCB (/Volumes/asdf/KKuTu/Server/lib/sub/collection.js:298:6)
+    at Query.handleReadyForQuery (/Volumes/asdf/KKuTu/Server/lib/node_modules/pg/lib/query.js:124:10)
+    at Connection.<anonymous> (/Volumes/asdf/KKuTu/Server/lib/node_modules/pg/lib/client.js:178:19)
+    at emitOne (events.js:96:13)
+    at Connection.emit (events.js:191:7)
+    at Socket.<anonymous> (/Volumes/asdf/KKuTu/Server/lib/node_modules/pg/lib/connection.js:133:12):8496 [2017-6-28 08:52:08] ERROR: SyntaxError: Invalid regular expression: /^(?)./: Invalid group
+SyntaxError: Invalid regular expression: /^(?)./: Invalid group
+    at new RegExp (<anonymous>)
+    at produce (/Volumes/asdf/KKuTu/Server/lib/Game/games/classic.js:457:23)
+    at /Volumes/asdf/KKuTu/Server/lib/Game/games/classic.js:453:4
+    at callback (/Volumes/asdf/KKuTu/Server/lib/sub/collection.js:316:13)
+    at Query.preCB (/Volumes/asdf/KKuTu/Server/lib/sub/collection.js:298:6)
+    at Query.handleReadyForQuery (/Volumes/asdf/KKuTu/Server/lib/node_modules/pg/lib/query.js:124:10)
+    at Connection.<anonymous> (/Volumes/asdf/KKuTu/Server/lib/node_modules/pg/lib/client.js:178:19)
+    at emitOne (events.js:96:13)
+    at Connection.emit (events.js:191:7)
+    at Socket.<anonymous> (/Volumes/asdf/KKuTu/Server/lib/node_modules/pg/lib/connection.js:133:12):8496 [2017-6-28 08:56:10] ERROR: SyntaxError: Invalid regular expression: /^?./: Nothing to repeat
+SyntaxError: Invalid regular expression: /^?./: Nothing to repeat
+    at new RegExp (<anonymous>)
+    at getWish (/Volumes/asdf/KKuTu/Server/lib/Game/games/classic.js:401:40)
+    at getWishList (/Volumes/asdf/KKuTu/Server/lib/Game/games/classic.js:386:26)
+    at /Volumes/asdf/KKuTu/Server/lib/Game/games/classic.js:349:7
+    at exports.Tail.go (/Volumes/asdf/KKuTu/Server/lib/sub/lizard.js:43:16)
+    at aft (/Volumes/asdf/KKuTu/Server/lib/Game/games/classic.js:483:8)
+    at /Volumes/asdf/KKuTu/Server/lib/Game/games/classic.js:489:22
+    at callback (/Volumes/asdf/KKuTu/Server/lib/sub/collection.js:316:13)
+    at Query.preCB (/Volumes/asdf/KKuTu/Server/lib/sub/collection.js:298:6)
+    at Query.handleReadyForQuery (/Volumes/asdf/KKuTu/Server/lib/node_modules/pg/lib/query.js:124:10):8496 [2017-6-28 16:55:19] ERROR: SyntaxError: Invalid regular expression: /^(?)./: Invalid group
+SyntaxError: Invalid regular expression: /^(?)./: Invalid group
+    at new RegExp (<anonymous>)
+    at produce (/Volumes/asdf/KKuTu/Server/lib/Game/games/classic.js:457:23)
+    at /Volumes/asdf/KKuTu/Server/lib/Game/games/classic.js:453:4
+    at callback (/Volumes/asdf/KKuTu/Server/lib/sub/collection.js:316:13)
+    at Query.preCB (/Volumes/asdf/KKuTu/Server/lib/sub/collection.js:298:6)
+    at Query.handleReadyForQuery (/Volumes/asdf/KKuTu/Server/lib/node_modules/pg/lib/query.js:124:10)
+    at Connection.<anonymous> (/Volumes/asdf/KKuTu/Server/lib/node_modules/pg/lib/client.js:178:19)
+    at emitOne (events.js:96:13)
+    at Connection.emit (events.js:191:7)
+    at Socket.<anonymous> (/Volumes/asdf/KKuTu/Server/lib/node_modules/pg/lib/connection.js:133:12):8496 [2017-6-28 17:01:51] ERROR: SyntaxError: Invalid regular expression: /^(?)./: Invalid group
+SyntaxError: Invalid regular expression: /^(?)./: Invalid group
+    at new RegExp (<anonymous>)
+    at produce (/Volumes/asdf/KKuTu/Server/lib/Game/games/classic.js:457:23)
+    at /Volumes/asdf/KKuTu/Server/lib/Game/games/classic.js:453:4
+    at callback (/Volumes/asdf/KKuTu/Server/lib/sub/collection.js:316:13)
+    at Query.preCB (/Volumes/asdf/KKuTu/Server/lib/sub/collection.js:298:6)
+    at Query.handleReadyForQuery (/Volumes/asdf/KKuTu/Server/lib/node_modules/pg/lib/query.js:124:10)
+    at Connection.<anonymous> (/Volumes/asdf/KKuTu/Server/lib/node_modules/pg/lib/client.js:178:19)
+    at emitOne (events.js:96:13)
+    at Connection.emit (events.js:191:7)
+    at Socket.<anonymous> (/Volumes/asdf/KKuTu/Server/lib/node_modules/pg/lib/connection.js:133:12):8496 [2017-6-28 17:06:29] ERROR: SyntaxError: Invalid regular expression: /^(?)./: Invalid group
+SyntaxError: Invalid regular expression: /^(?)./: Invalid group
+    at new RegExp (<anonymous>)
+    at produce (/Volumes/asdf/KKuTu/Server/lib/Game/games/classic.js:457:23)
+    at /Volumes/asdf/KKuTu/Server/lib/Game/games/classic.js:453:4
+    at callback (/Volumes/asdf/KKuTu/Server/lib/sub/collection.js:316:13)
+    at Query.preCB (/Volumes/asdf/KKuTu/Server/lib/sub/collection.js:298:6)
+    at Query.handleReadyForQuery (/Volumes/asdf/KKuTu/Server/lib/node_modules/pg/lib/query.js:124:10)
+    at Connection.<anonymous> (/Volumes/asdf/KKuTu/Server/lib/node_modules/pg/lib/client.js:178:19)
+    at emitOne (events.js:96:13)
+    at Connection.emit (events.js:191:7)
+    at Socket.<anonymous> (/Volumes/asdf/KKuTu/Server/lib/node_modules/pg/lib/connection.js:133:12):8496 [2017-6-28 17:07:49] ERROR: SyntaxError: Invalid regular expression: /^(?)./: Invalid group
+SyntaxError: Invalid regular expression: /^(?)./: Invalid group
+    at new RegExp (<anonymous>)
+    at produce (/Volumes/asdf/KKuTu/Server/lib/Game/games/classic.js:457:23)
+    at /Volumes/asdf/KKuTu/Server/lib/Game/games/classic.js:453:4
+    at callback (/Volumes/asdf/KKuTu/Server/lib/sub/collection.js:316:13)
+    at Query.preCB (/Volumes/asdf/KKuTu/Server/lib/sub/collection.js:298:6)
+    at Query.handleReadyForQuery (/Volumes/asdf/KKuTu/Server/lib/node_modules/pg/lib/query.js:124:10)
+    at Connection.<anonymous> (/Volumes/asdf/KKuTu/Server/lib/node_modules/pg/lib/client.js:178:19)
+    at emitOne (events.js:96:13)
+    at Connection.emit (events.js:191:7)
+    at Socket.<anonymous> (/Volumes/asdf/KKuTu/Server/lib/node_modules/pg/lib/connection.js:133:12):8496 [2017-6-28 17:09:55] ERROR: SyntaxError: Invalid regular expression: /^(?)./: Invalid group
+SyntaxError: Invalid regular expression: /^(?)./: Invalid group
+    at new RegExp (<anonymous>)
+    at produce (/Volumes/asdf/KKuTu/Server/lib/Game/games/classic.js:457:23)
+    at /Volumes/asdf/KKuTu/Server/lib/Game/games/classic.js:453:4
+    at callback (/Volumes/asdf/KKuTu/Server/lib/sub/collection.js:316:13)
+    at Query.preCB (/Volumes/asdf/KKuTu/Server/lib/sub/collection.js:298:6)
+    at Query.handleReadyForQuery (/Volumes/asdf/KKuTu/Server/lib/node_modules/pg/lib/query.js:124:10)
+    at Connection.<anonymous> (/Volumes/asdf/KKuTu/Server/lib/node_modules/pg/lib/client.js:178:19)
+    at emitOne (events.js:96:13)
+    at Connection.emit (events.js:191:7)
+    at Socket.<anonymous> (/Volumes/asdf/KKuTu/Server/lib/node_modules/pg/lib/connection.js:133:12):8496 [2017-6-28 17:13:35] ERROR: SyntaxError: Invalid regular expression: /^(?)./: Invalid group
+SyntaxError: Invalid regular expression: /^(?)./: Invalid group
+    at new RegExp (<anonymous>)
+    at produce (/Volumes/asdf/KKuTu/Server/lib/Game/games/classic.js:457:23)
+    at /Volumes/asdf/KKuTu/Server/lib/Game/games/classic.js:453:4
+    at callback (/Volumes/asdf/KKuTu/Server/lib/sub/collection.js:316:13)
+    at Query.preCB (/Volumes/asdf/KKuTu/Server/lib/sub/collection.js:298:6)
+    at Query.handleReadyForQuery (/Volumes/asdf/KKuTu/Server/lib/node_modules/pg/lib/query.js:124:10)
+    at Connection.<anonymous> (/Volumes/asdf/KKuTu/Server/lib/node_modules/pg/lib/client.js:178:19)
+    at emitOne (events.js:96:13)
+    at Connection.emit (events.js:191:7)
+    at Socket.<anonymous> (/Volumes/asdf/KKuTu/Server/lib/node_modules/pg/lib/connection.js:133:12):8496 [2017-6-28 17:37:20] ERROR: SyntaxError: Invalid regular expression: /^(?)./: Invalid group
+SyntaxError: Invalid regular expression: /^(?)./: Invalid group
+    at new RegExp (<anonymous>)
+    at produce (/Volumes/asdf/KKuTu/Server/lib/Game/games/classic.js:457:23)
+    at /Volumes/asdf/KKuTu/Server/lib/Game/games/classic.js:453:4
+    at callback (/Volumes/asdf/KKuTu/Server/lib/sub/collection.js:316:13)
+    at Query.preCB (/Volumes/asdf/KKuTu/Server/lib/sub/collection.js:298:6)
+    at Query.handleReadyForQuery (/Volumes/asdf/KKuTu/Server/lib/node_modules/pg/lib/query.js:124:10)
+    at Connection.<anonymous> (/Volumes/asdf/KKuTu/Server/lib/node_modules/pg/lib/client.js:178:19)
+    at emitOne (events.js:96:13)
+    at Connection.emit (events.js:191:7)
+    at Socket.<anonymous> (/Volumes/asdf/KKuTu/Server/lib/node_modules/pg/lib/connection.js:133:12):8496 [2017-6-28 17:40:54] ERROR: SyntaxError: Invalid regular expression: /^(?)./: Invalid group
+SyntaxError: Invalid regular expression: /^(?)./: Invalid group
+    at new RegExp (<anonymous>)
+    at produce (/Volumes/asdf/KKuTu/Server/lib/Game/games/classic.js:457:23)
+    at /Volumes/asdf/KKuTu/Server/lib/Game/games/classic.js:453:4
+    at callback (/Volumes/asdf/KKuTu/Server/lib/sub/collection.js:316:13)
+    at Query.preCB (/Volumes/asdf/KKuTu/Server/lib/sub/collection.js:298:6)
+    at Query.handleReadyForQuery (/Volumes/asdf/KKuTu/Server/lib/node_modules/pg/lib/query.js:124:10)
+    at Connection.<anonymous> (/Volumes/asdf/KKuTu/Server/lib/node_modules/pg/lib/client.js:178:19)
+    at emitOne (events.js:96:13)
+    at Connection.emit (events.js:191:7)
+    at Socket.<anonymous> (/Volumes/asdf/KKuTu/Server/lib/node_modules/pg/lib/connection.js:133:12):8496 [2017-6-28 17:47:10] ERROR: SyntaxError: Invalid regular expression: /^(?)./: Invalid group
+SyntaxError: Invalid regular expression: /^(?)./: Invalid group
+    at new RegExp (<anonymous>)
+    at produce (/Volumes/asdf/KKuTu/Server/lib/Game/games/classic.js:457:23)
+    at /Volumes/asdf/KKuTu/Server/lib/Game/games/classic.js:453:4
+    at callback (/Volumes/asdf/KKuTu/Server/lib/sub/collection.js:316:13)
+    at Query.preCB (/Volumes/asdf/KKuTu/Server/lib/sub/collection.js:298:6)
+    at Query.handleReadyForQuery (/Volumes/asdf/KKuTu/Server/lib/node_modules/pg/lib/query.js:124:10)
+    at Connection.<anonymous> (/Volumes/asdf/KKuTu/Server/lib/node_modules/pg/lib/client.js:178:19)
+    at emitOne (events.js:96:13)
+    at Connection.emit (events.js:191:7)
+    at Socket.<anonymous> (/Volumes/asdf/KKuTu/Server/lib/node_modules/pg/lib/connection.js:133:12):8496 [2017-6-28 20:16:33] ERROR: TypeError: Cannot read property '_id' of null
+TypeError: Cannot read property '_id' of null
+    at /Volumes/asdf/KKuTu/Server/lib/Game/games/jaqwi.js:62:26
+    at exports.Tail.go (/Volumes/asdf/KKuTu/Server/lib/sub/lizard.js:43:16)
+    at /Volumes/asdf/KKuTu/Server/lib/Game/games/jaqwi.js:249:21
+    at callback (/Volumes/asdf/KKuTu/Server/lib/sub/collection.js:316:13)
+    at Query.preCB (/Volumes/asdf/KKuTu/Server/lib/sub/collection.js:298:6)
+    at Query.handleReadyForQuery (/Volumes/asdf/KKuTu/Server/lib/node_modules/pg/lib/query.js:124:10)
+    at Connection.<anonymous> (/Volumes/asdf/KKuTu/Server/lib/node_modules/pg/lib/client.js:178:19)
+    at emitOne (events.js:96:13)
+    at Connection.emit (events.js:191:7)
+    at Socket.<anonymous> (/Volumes/asdf/KKuTu/Server/lib/node_modules/pg/lib/connection.js:133:12):8496 [2017-7-6 21:02:05] ERROR: TypeError: Cannot read property 'id' of undefined
+TypeError: Cannot read property 'id' of undefined
+    at exports.Client.my.kick (/Volumes/asdf/KKuTu/Server/lib/Game/kkutu.js:609:38)
+    at Object.KKuTu.onClientMessage (/Volumes/asdf/KKuTu/Server/lib/Game/slave.js:330:12)
+    at WebSocket.<anonymous> (/Volumes/asdf/KKuTu/Server/lib/Game/kkutu.js:293:11)
+    at emitTwo (events.js:106:13)
+    at WebSocket.emit (events.js:194:7)
+    at Receiver.ontext (/Volumes/asdf/KKuTu/Server/lib/node_modules/ws/lib/WebSocket.js:841:10)
+    at /Volumes/asdf/KKuTu/Server/lib/node_modules/ws/lib/Receiver.js:536:18
+    at Receiver.applyExtensions (/Volumes/asdf/KKuTu/Server/lib/node_modules/ws/lib/Receiver.js:371:5)
+    at /Volumes/asdf/KKuTu/Server/lib/node_modules/ws/lib/Receiver.js:508:14
+    at Receiver.flush (/Volumes/asdf/KKuTu/Server/lib/node_modules/ws/lib/Receiver.js:347:3):8496 [2017-7-6 21:03:53] ERROR: TypeError: Cannot read property 'id' of undefined
+TypeError: Cannot read property 'id' of undefined
+    at exports.Client.my.kick (/Volumes/asdf/KKuTu/Server/lib/Game/kkutu.js:609:38)
+    at Object.KKuTu.onClientMessage (/Volumes/asdf/KKuTu/Server/lib/Game/slave.js:330:12)
+    at WebSocket.<anonymous> (/Volumes/asdf/KKuTu/Server/lib/Game/kkutu.js:293:11)
+    at emitTwo (events.js:106:13)
+    at WebSocket.emit (events.js:194:7)
+    at Receiver.ontext (/Volumes/asdf/KKuTu/Server/lib/node_modules/ws/lib/WebSocket.js:841:10)
+    at /Volumes/asdf/KKuTu/Server/lib/node_modules/ws/lib/Receiver.js:536:18
+    at Receiver.applyExtensions (/Volumes/asdf/KKuTu/Server/lib/node_modules/ws/lib/Receiver.js:371:5)
+    at /Volumes/asdf/KKuTu/Server/lib/node_modules/ws/lib/Receiver.js:508:14
+    at Receiver.flush (/Volumes/asdf/KKuTu/Server/lib/node_modules/ws/lib/Receiver.js:347:3):8496 [2017-7-6 21:06:54] ERROR: TypeError: Cannot read property 'id' of undefined
+TypeError: Cannot read property 'id' of undefined
+    at exports.Client.my.kick (/Volumes/asdf/KKuTu/Server/lib/Game/kkutu.js:609:38)
+    at Object.KKuTu.onClientMessage (/Volumes/asdf/KKuTu/Server/lib/Game/slave.js:329:21)
+    at WebSocket.<anonymous> (/Volumes/asdf/KKuTu/Server/lib/Game/kkutu.js:293:11)
+    at emitTwo (events.js:106:13)
+    at WebSocket.emit (events.js:194:7)
+    at Receiver.ontext (/Volumes/asdf/KKuTu/Server/lib/node_modules/ws/lib/WebSocket.js:841:10)
+    at /Volumes/asdf/KKuTu/Server/lib/node_modules/ws/lib/Receiver.js:536:18
+    at Receiver.applyExtensions (/Volumes/asdf/KKuTu/Server/lib/node_modules/ws/lib/Receiver.js:371:5)
+    at /Volumes/asdf/KKuTu/Server/lib/node_modules/ws/lib/Receiver.js:508:14
+    at Receiver.flush (/Volumes/asdf/KKuTu/Server/lib/node_modules/ws/lib/Receiver.js:347:3):8496 [2017-7-6 21:14:48] ERROR: TypeError: Cannot read property 'id' of undefined
+TypeError: Cannot read property 'id' of undefined
+    at exports.Client.my.kick (/Volumes/asdf/KKuTu/Server/lib/Game/kkutu.js:609:38)
+    at Object.KKuTu.onClientMessage (/Volumes/asdf/KKuTu/Server/lib/Game/slave.js:329:21)
+    at WebSocket.<anonymous> (/Volumes/asdf/KKuTu/Server/lib/Game/kkutu.js:293:11)
+    at emitTwo (events.js:106:13)
+    at WebSocket.emit (events.js:194:7)
+    at Receiver.ontext (/Volumes/asdf/KKuTu/Server/lib/node_modules/ws/lib/WebSocket.js:841:10)
+    at /Volumes/asdf/KKuTu/Server/lib/node_modules/ws/lib/Receiver.js:536:18
+    at Receiver.applyExtensions (/Volumes/asdf/KKuTu/Server/lib/node_modules/ws/lib/Receiver.js:371:5)
+    at /Volumes/asdf/KKuTu/Server/lib/node_modules/ws/lib/Receiver.js:508:14
+    at Receiver.flush (/Volumes/asdf/KKuTu/Server/lib/node_modules/ws/lib/Receiver.js:347:3):8496 [2017-7-8 00:12:26] ERROR: Error: This socket is closed
+Error: This socket is closed
+    at Socket._writeGeneric (net.js:692:19)
+    at Socket._write (net.js:743:8)
+    at doWrite (_stream_writable.js:329:12)
+    at writeOrBuffer (_stream_writable.js:315:5)
+    at Socket.Writable.write (_stream_writable.js:241:11)
+    at Socket.write (net.js:670:40)
+    at Console.log (console.js:43:16)
+    at callLog (/Volumes/asdf/KKuTu/Server/lib/sub/jjlog.js:38:10)
+    at Object.exports.error (/Volumes/asdf/KKuTu/Server/lib/sub/jjlog.js:56:2)
+    at /Volumes/asdf/KKuTu/Server/lib/Game/master.js:64:8:8496 [2017-7-8 00:12:26] ERROR: error: terminating connection due to unexpected postmaster exit
+error: terminating connection due to unexpected postmaster exit
+    at Connection.parseE (/Volumes/asdf/KKuTu/Server/lib/node_modules/pg/lib/connection.js:567:11)
+    at Connection.parseMessage (/Volumes/asdf/KKuTu/Server/lib/node_modules/pg/lib/connection.js:391:17)
+    at Socket.<anonymous> (/Volumes/asdf/KKuTu/Server/lib/node_modules/pg/lib/connection.js:129:22)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:191:7)
+    at readableAddChunk (_stream_readable.js:178:18)
+    at Socket.Readable.push (_stream_readable.js:136:10)
+    at TCP.onread (net.js:560:20):8496 [2017-7-8 00:12:26] ERROR: Error: This socket is closed
+Error: This socket is closed
+    at Socket._writeGeneric (net.js:692:19)
+    at Socket._write (net.js:743:8)
+    at doWrite (_stream_writable.js:329:12)
+    at writeOrBuffer (_stream_writable.js:315:5)
+    at Socket.Writable.write (_stream_writable.js:241:11)
+    at Socket.write (net.js:670:40)
+    at Console.log (console.js:43:16)
+    at callLog (/Volumes/asdf/KKuTu/Server/lib/sub/jjlog.js:38:10)
+    at Object.exports.error (/Volumes/asdf/KKuTu/Server/lib/sub/jjlog.js:56:2)
+    at /Volumes/asdf/KKuTu/Server/lib/Game/master.js:64:8:8496 [2017-7-8 00:12:26] ERROR: Error: write EPIPE
+Error: write EPIPE
+    at exports._errnoException (util.js:1050:11)
+    at WriteWrap.afterWrite [as oncomplete] (net.js:813:14):8496 [2017-7-8 00:12:26] ERROR: Error: This socket is closed
+Error: This socket is closed
+    at Socket._writeGeneric (net.js:692:19)
+    at Socket._write (net.js:743:8)
+    at doWrite (_stream_writable.js:329:12)
+    at writeOrBuffer (_stream_writable.js:315:5)
+    at Socket.Writable.write (_stream_writable.js:241:11)
+    at Socket.write (net.js:670:40)
+    at Console.log (console.js:43:16)
+    at callLog (/Volumes/asdf/KKuTu/Server/lib/sub/jjlog.js:38:10)
+    at Object.exports.error (/Volumes/asdf/KKuTu/Server/lib/sub/jjlog.js:56:2)
+    at /Volumes/asdf/KKuTu/Server/lib/Game/master.js:64:8:8496 [2017-7-8 00:12:26] ERROR: Error: This socket is closed
+Error: This socket is closed
+    at Socket._writeGeneric (net.js:692:19)
+    at Socket._write (net.js:743:8)
+    at doWrite (_stream_writable.js:329:12)
+    at writeOrBuffer (_stream_writable.js:315:5)
+    at Socket.Writable.write (_stream_writable.js:241:11)
+    at Socket.write (net.js:670:40)
+    at Console.log (console.js:43:16)
+    at callLog (/Volumes/asdf/KKuTu/Server/lib/sub/jjlog.js:38:10)
+    at Object.exports.error (/Volumes/asdf/KKuTu/Server/lib/sub/jjlog.js:56:2)
+    at /Volumes/asdf/KKuTu/Server/lib/Game/master.js:64:8:8496 [2017-7-8 00:12:26] ERROR: Error: This socket is closed
+Error: This socket is closed
+    at Socket._writeGeneric (net.js:692:19)
+    at Socket._write (net.js:743:8)
+    at doWrite (_stream_writable.js:329:12)
+    at writeOrBuffer (_stream_writable.js:315:5)
+    at Socket.Writable.write (_stream_writable.js:241:11)
+    at Socket.write (net.js:670:40)
+    at Console.log (console.js:43:16)
+    at callLog (/Volumes/asdf/KKuTu/Server/lib/sub/jjlog.js:38:10)
+    at Object.exports.error (/Volumes/asdf/KKuTu/Server/lib/sub/jjlog.js:56:2)
+    at /Volumes/asdf/KKuTu/Server/lib/Game/master.js:64:8:8496 [2017-7-8 00:12:26] ERROR: Error: This socket is closed
+Error: This socket is closed
+    at Socket._writeGeneric (net.js:692:19)
+    at Socket._write (net.js:743:8)
+    at doWrite (_stream_writable.js:329:12)
+    at writeOrBuffer (_stream_writable.js:315:5)
+    at Socket.Writable.write (_stream_writable.js:241:11)
+    at Socket.write (net.js:670:40)
+    at Console.log (console.js:43:16)
+    at callLog (/Volumes/asdf/KKuTu/Server/lib/sub/jjlog.js:38:10)
+    at Object.exports.error (/Volumes/asdf/KKuTu/Server/lib/sub/jjlog.js:56:2)
+    at /Volumes/asdf/KKuTu/Server/lib/Game/slave.js:54:8:8496 [2017-7-8 00:12:26] ERROR: Error: This socket is closed
+Error: This socket is closed
+    at Socket._writeGeneric (net.js:692:19)
+    at Socket._write (net.js:743:8)
+    at doWrite (_stream_writable.js:329:12)
+    at writeOrBuffer (_stream_writable.js:315:5)
+    at Socket.Writable.write (_stream_writable.js:241:11)
+    at Socket.write (net.js:670:40)
+    at Console.log (console.js:43:16)
+    at callLog (/Volumes/asdf/KKuTu/Server/lib/sub/jjlog.js:38:10)
+    at Object.exports.error (/Volumes/asdf/KKuTu/Server/lib/sub/jjlog.js:56:2)
+    at /Volumes/asdf/KKuTu/Server/lib/Game/master.js:64:8:8496 [2017-7-8 00:12:26] ERROR: Error: This socket is closed
+Error: This socket is closed
+    at Socket._writeGeneric (net.js:692:19)
+    at Socket._write (net.js:743:8)
+    at doWrite (_stream_writable.js:329:12)
+    at writeOrBuffer (_stream_writable.js:315:5)
+    at Socket.Writable.write (_stream_writable.js:241:11)
+    at Socket.write (net.js:670:40)
+    at Console.log (console.js:43:16)
+    at callLog (/Volumes/asdf/KKuTu/Server/lib/sub/jjlog.js:38:10)
+    at Object.exports.error (/Volumes/asdf/KKuTu/Server/lib/sub/jjlog.js:56:2)
+    at /Volumes/asdf/KKuTu/Server/lib/Game/slave.js:54:8:8496 [2017-7-8 00:12:26] ERROR: Error: This socket is closed
+Error: This socket is closed
+    at Socket._writeGeneric (net.js:692:19)
+    at Socket._write (net.js:743:8)
+    at doWrite (_stream_writable.js:329:12)
+    at writeOrBuffer (_stream_writable.js:315:5)
+    at Socket.Writable.write (_stream_writable.js:241:11)
+    at Socket.write (net.js:670:40)
+    at Console.log (console.js:43:16)
+    at callLog (/Volumes/asdf/KKuTu/Server/lib/sub/jjlog.js:38:10)
+    at Object.exports.error (/Volumes/asdf/KKuTu/Server/lib/sub/jjlog.js:56:2)
+    at /Volumes/asdf/KKuTu/Server/lib/Game/slave.js:54:8:8496 [2017-7-8 00:12:26] ERROR: Error: This socket is closed
+Error: This socket is closed
+    at Socket._writeGeneric (net.js:692:19)
+    at Socket._write (net.js:743:8)
+    at doWrite (_stream_writable.js:329:12)
+    at writeOrBuffer (_stream_writable.js:315:5)
+    at Socket.Writable.write (_stream_writable.js:241:11)
+    at Socket.write (net.js:670:40)
+    at Console.log (console.js:43:16)
+    at callLog (/Volumes/asdf/KKuTu/Server/lib/sub/jjlog.js:38:10)
+    at Object.exports.error (/Volumes/asdf/KKuTu/Server/lib/sub/jjlog.js:56:2)
+    at /Volumes/asdf/KKuTu/Server/lib/Game/slave.js:54:8:8496 [2017-7-8 00:12:26] ERROR: Error: This socket is closed
+Error: This socket is closed
+    at Socket._writeGeneric (net.js:692:19)
+    at Socket._write (net.js:743:8)
+    at doWrite (_stream_writable.js:329:12)
+    at writeOrBuffer (_stream_writable.js:315:5)
+    at Socket.Writable.write (_stream_writable.js:241:11)
+    at Socket.write (net.js:670:40)
+    at Console.log (console.js:43:16)
+    at callLog (/Volumes/asdf/KKuTu/Server/lib/sub/jjlog.js:38:10)
+    at Object.exports.error (/Volumes/asdf/KKuTu/Server/lib/sub/jjlog.js:56:2)
+    at /Volumes/asdf/KKuTu/Server/lib/Game/slave.js:54:8:8496 [2017-7-8 00:12:26] ERROR: Error: This socket is closed
+Error: This socket is closed
+    at Socket._writeGeneric (net.js:692:19)
+    at Socket._write (net.js:743:8)
+    at doWrite (_stream_writable.js:329:12)
+    at writeOrBuffer (_stream_writable.js:315:5)
+    at Socket.Writable.write (_stream_writable.js:241:11)
+    at Socket.write (net.js:670:40)
+    at Console.log (console.js:43:16)
+    at callLog (/Volumes/asdf/KKuTu/Server/lib/sub/jjlog.js:38:10)
+    at Object.exports.error (/Volumes/asdf/KKuTu/Server/lib/sub/jjlog.js:56:2)
+    at /Volumes/asdf/KKuTu/Server/lib/Game/master.js:64:8:8496 [2017-7-8 00:12:26] ERROR: Error: This socket is closed
+Error: This socket is closed
+    at Socket._writeGeneric (net.js:692:19)
+    at Socket._write (net.js:743:8)
+    at doWrite (_stream_writable.js:329:12)
+    at writeOrBuffer (_stream_writable.js:315:5)
+    at Socket.Writable.write (_stream_writable.js:241:11)
+    at Socket.write (net.js:670:40)
+    at Console.log (console.js:43:16)
+    at callLog (/Volumes/asdf/KKuTu/Server/lib/sub/jjlog.js:38:10)
+    at Object.exports.error (/Volumes/asdf/KKuTu/Server/lib/sub/jjlog.js:56:2)
+    at /Volumes/asdf/KKuTu/Server/lib/Game/master.js:64:8:8496 [2017-7-8 00:12:26] ERROR: Error: This socket is closed
+Error: This socket is closed
+    at Socket._writeGeneric (net.js:692:19)
+    at Socket._write (net.js:743:8)
+    at doWrite (_stream_writable.js:329:12)
+    at writeOrBuffer (_stream_writable.js:315:5)
+    at Socket.Writable.write (_stream_writable.js:241:11)
+    at Socket.write (net.js:670:40)
+    at Console.log (console.js:43:16)
+    at callLog (/Volumes/asdf/KKuTu/Server/lib/sub/jjlog.js:38:10)
+    at Object.exports.error (/Volumes/asdf/KKuTu/Server/lib/sub/jjlog.js:56:2)
+    at /Volumes/asdf/KKuTu/Server/lib/Game/master.js:64:8:8496 [2017-7-8 00:12:26] ERROR: Error: This socket is closed
+Error: This socket is closed
+    at Socket._writeGeneric (net.js:692:19)
+    at Socket._write (net.js:743:8)
+    at doWrite (_stream_writable.js:329:12)
+    at writeOrBuffer (_stream_writable.js:315:5)
+    at Socket.Writable.write (_stream_writable.js:241:11)
+    at Socket.write (net.js:670:40)
+    at Console.log (console.js:43:16)
+    at callLog (/Volumes/asdf/KKuTu/Server/lib/sub/jjlog.js:38:10)
+    at Object.exports.error (/Volumes/asdf/KKuTu/Server/lib/sub/jjlog.js:56:2)
+    at /Volumes/asdf/KKuTu/Server/lib/Game/slave.js:54:8:8496 [2017-7-8 00:12:26] ERROR: Error: This socket is closed
+Error: This socket is closed
+    at Socket._writeGeneric (net.js:692:19)
+    at Socket._write (net.js:743:8)
+    at doWrite (_stream_writable.js:329:12)
+    at writeOrBuffer (_stream_writable.js:315:5)
+    at Socket.Writable.write (_stream_writable.js:241:11)
+    at Socket.write (net.js:670:40)
+    at Console.log (console.js:43:16)
+    at callLog (/Volumes/asdf/KKuTu/Server/lib/sub/jjlog.js:38:10)
+    at Object.exports.error (/Volumes/asdf/KKuTu/Server/lib/sub/jjlog.js:56:2)
+    at /Volumes/asdf/KKuTu/Server/lib/Game/master.js:64:8:8496 [2017-7-8 00:12:26] ERROR: Error: This socket is closed
+Error: This socket is closed
+    at Socket._writeGeneric (net.js:692:19)
+    at Socket._write (net.js:743:8)
+    at doWrite (_stream_writable.js:329:12)
+    at writeOrBuffer (_stream_writable.js:315:5)
+    at Socket.Writable.write (_stream_writable.js:241:11)
+    at Socket.write (net.js:670:40)
+    at Console.log (console.js:43:16)
+    at callLog (/Volumes/asdf/KKuTu/Server/lib/sub/jjlog.js:38:10)
+    at Object.exports.error (/Volumes/asdf/KKuTu/Server/lib/sub/jjlog.js:56:2)
+    at /Volumes/asdf/KKuTu/Server/lib/Game/master.js:64:8:8496 [2017-7-8 00:12:26] ERROR: Error: This socket is closed
+Error: This socket is closed
+    at Socket._writeGeneric (net.js:692:19)
+    at Socket._write (net.js:743:8)
+    at doWrite (_stream_writable.js:329:12)
+    at writeOrBuffer (_stream_writable.js:315:5)
+    at Socket.Writable.write (_stream_writable.js:241:11)
+    at Socket.write (net.js:670:40)
+    at Console.log (console.js:43:16)
+    at callLog (/Volumes/asdf/KKuTu/Server/lib/sub/jjlog.js:38:10)
+    at Object.exports.error (/Volumes/asdf/KKuTu/Server/lib/sub/jjlog.js:56:2)
+    at /Volumes/asdf/KKuTu/Server/lib/Game/master.js:64:8:8496 [2017-7-8 00:12:26] ERROR: Error: This socket is closed
+Error: This socket is closed
+    at Socket._writeGeneric (net.js:692:19)
+    at Socket._write (net.js:743:8)
+    at doWrite (_stream_writable.js:329:12)
+    at writeOrBuffer (_stream_writable.js:315:5)
+    at Socket.Writable.write (_stream_writable.js:241:11)
+    at Socket.write (net.js:670:40)
+    at Console.log (console.js:43:16)
+    at callLog (/Volumes/asdf/KKuTu/Server/lib/sub/jjlog.js:38:10)
+    at Object.exports.error (/Volumes/asdf/KKuTu/Server/lib/sub/jjlog.js:56:2)
+    at /Volumes/asdf/KKuTu/Server/lib/Game/master.js:64:8:8496 [2017-7-8 00:12:26] ERROR: Error: This socket is closed
+Error: This socket is closed
+    at Socket._writeGeneric (net.js:692:19)
+    at Socket._write (net.js:743:8)
+    at doWrite (_stream_writable.js:329:12)
+    at writeOrBuffer (_stream_writable.js:315:5)
+    at Socket.Writable.write (_stream_writable.js:241:11)
+    at Socket.write (net.js:670:40)
+    at Console.log (console.js:43:16)
+    at callLog (/Volumes/asdf/KKuTu/Server/lib/sub/jjlog.js:38:10)
+    at Object.exports.error (/Volumes/asdf/KKuTu/Server/lib/sub/jjlog.js:56:2)
+    at /Volumes/asdf/KKuTu/Server/lib/Game/master.js:64:8:8496 [2017-7-8 00:12:26] ERROR: Error: This socket is closed
+Error: This socket is closed
+    at Socket._writeGeneric (net.js:692:19)
+    at Socket._write (net.js:743:8)
+    at doWrite (_stream_writable.js:329:12)
+    at writeOrBuffer (_stream_writable.js:315:5)
+    at Socket.Writable.write (_stream_writable.js:241:11)
+    at Socket.write (net.js:670:40)
+    at Console.log (console.js:43:16)
+    at callLog (/Volumes/asdf/KKuTu/Server/lib/sub/jjlog.js:38:10)
+    at Object.exports.error (/Volumes/asdf/KKuTu/Server/lib/sub/jjlog.js:56:2)
+    at /Volumes/asdf/KKuTu/Server/lib/Game/master.js:64:8:8496 [2017-7-8 00:12:26] ERROR: Error: This socket is closed
+Error: This socket is closed
+    at Socket._writeGeneric (net.js:692:19)
+    at Socket._write (net.js:743:8)
+    at doWrite (_stream_writable.js:329:12)
+    at writeOrBuffer (_stream_writable.js:315:5)
+    at Socket.Writable.write (_stream_writable.js:241:11)
+    at Socket.write (net.js:670:40)
+    at Console.log (console.js:43:16)
+    at callLog (/Volumes/asdf/KKuTu/Server/lib/sub/jjlog.js:38:10)
+    at Object.exports.error (/Volumes/asdf/KKuTu/Server/lib/sub/jjlog.js:56:2)
+    at /Volumes/asdf/KKuTu/Server/lib/Game/slave.js:54:8:8496 [2017-7-8 00:12:26] ERROR: Error: This socket is closed
+Error: This socket is closed
+    at Socket._writeGeneric (net.js:692:19)
+    at Socket._write (net.js:743:8)
+    at doWrite (_stream_writable.js:329:12)
+    at writeOrBuffer (_stream_writable.js:315:5)
+    at Socket.Writable.write (_stream_writable.js:241:11)
+    at Socket.write (net.js:670:40)
+    at Console.log (console.js:43:16)
+    at callLog (/Volumes/asdf/KKuTu/Server/lib/sub/jjlog.js:38:10)
+    at Object.exports.error (/Volumes/asdf/KKuTu/Server/lib/sub/jjlog.js:56:2)
+    at /Volumes/asdf/KKuTu/Server/lib/Game/master.js:64:8:8496 [2017-7-8 00:12:26] ERROR: Error: This socket is closed
+Error: This socket is closed
+    at Socket._writeGeneric (net.js:692:19)
+    at Socket._write (net.js:743:8)
+    at doWrite (_stream_writable.js:329:12)
+    at writeOrBuffer (_stream_writable.js:315:5)
+    at Socket.Writable.write (_stream_writable.js:241:11)
+    at Socket.write (net.js:670:40)
+    at Console.log (console.js:43:16)
+    at callLog (/Volumes/asdf/KKuTu/Server/lib/sub/jjlog.js:38:10)
+    at Object.exports.error (/Volumes/asdf/KKuTu/Server/lib/sub/jjlog.js:56:2)
+    at /Volumes/asdf/KKuTu/Server/lib/Game/master.js:64:8:8496 [2017-7-8 00:12:26] ERROR: Error: This socket is closed
+Error: This socket is closed
+    at Socket._writeGeneric (net.js:692:19)
+    at Socket._write (net.js:743:8)
+    at doWrite (_stream_writable.js:329:12)
+    at writeOrBuffer (_stream_writable.js:315:5)
+    at Socket.Writable.write (_stream_writable.js:241:11)
+    at Socket.write (net.js:670:40)
+    at Console.log (console.js:43:16)
+    at callLog (/Volumes/asdf/KKuTu/Server/lib/sub/jjlog.js:38:10)
+    at Object.exports.error (/Volumes/asdf/KKuTu/Server/lib/sub/jjlog.js:56:2)
+    at /Volumes/asdf/KKuTu/Server/lib/Game/master.js:64:8:8496 [2017-7-8 00:12:26] ERROR: Error: This socket is closed
+Error: This socket is closed
+    at Socket._writeGeneric (net.js:692:19)
+    at Socket._write (net.js:743:8)
+    at doWrite (_stream_writable.js:329:12)
+    at writeOrBuffer (_stream_writable.js:315:5)
+    at Socket.Writable.write (_stream_writable.js:241:11)
+    at Socket.write (net.js:670:40)
+    at Console.log (console.js:43:16)
+    at callLog (/Volumes/asdf/KKuTu/Server/lib/sub/jjlog.js:38:10)
+    at Object.exports.error (/Volumes/asdf/KKuTu/Server/lib/sub/jjlog.js:56:2)
+    at /Volumes/asdf/KKuTu/Server/lib/Game/master.js:64:8:8496 [2017-7-8 00:12:26] ERROR: Error: This socket is closed
+Error: This socket is closed
+    at Socket._writeGeneric (net.js:692:19)
+    at Socket._write (net.js:743:8)
+    at doWrite (_stream_writable.js:329:12)
+    at writeOrBuffer (_stream_writable.js:315:5)
+    at Socket.Writable.write (_stream_writable.js:241:11)
+    at Socket.write (net.js:670:40)
+    at Console.log (console.js:43:16)
+    at callLog (/Volumes/asdf/KKuTu/Server/lib/sub/jjlog.js:38:10)
+    at Object.exports.error (/Volumes/asdf/KKuTu/Server/lib/sub/jjlog.js:56:2)
+    at /Volumes/asdf/KKuTu/Server/lib/Game/master.js:64:8:8496 [2017-7-8 00:12:26] ERROR: Error: This socket is closed
+Error: This socket is closed
+    at Socket._writeGeneric (net.js:692:19)
+    at Socket._write (net.js:743:8)
+    at doWrite (_stream_writable.js:329:12)
+    at writeOrBuffer (_stream_writable.js:315:5)
+    at Socket.Writable.write (_stream_writable.js:241:11)
+    at Socket.write (net.js:670:40)
+    at Console.log (console.js:43:16)
+    at callLog (/Volumes/asdf/KKuTu/Server/lib/sub/jjlog.js:38:10)
+    at Object.exports.error (/Volumes/asdf/KKuTu/Server/lib/sub/jjlog.js:56:2)
+    at /Volumes/asdf/KKuTu/Server/lib/Game/slave.js:54:8:8496 [2017-7-8 00:12:26] ERROR: Error: This socket is closed
+Error: This socket is closed
+    at Socket._writeGeneric (net.js:692:19)
+    at Socket._write (net.js:743:8)
+    at doWrite (_stream_writable.js:329:12)
+    at writeOrBuffer (_stream_writable.js:315:5)
+    at Socket.Writable.write (_stream_writable.js:241:11)
+    at Socket.write (net.js:670:40)
+    at Console.log (console.js:43:16)
+    at callLog (/Volumes/asdf/KKuTu/Server/lib/sub/jjlog.js:38:10)
+    at Object.exports.error (/Volumes/asdf/KKuTu/Server/lib/sub/jjlog.js:56:2)
+    at /Volumes/asdf/KKuTu/Server/lib/Game/master.js:64:8:8496 [2017-7-8 00:12:26] ERROR: Error: This socket is closed
+Error: This socket is closed
+    at Socket._writeGeneric (net.js:692:19)
+    at Socket._write (net.js:743:8)
+    at doWrite (_stream_writable.js:329:12)
+    at writeOrBuffer (_stream_writable.js:315:5)
+    at Socket.Writable.write (_stream_writable.js:241:11)
+    at Socket.write (net.js:670:40)
+    at Console.log (console.js:43:16)
+    at callLog (/Volumes/asdf/KKuTu/Server/lib/sub/jjlog.js:38:10)
+    at Object.exports.error (/Volumes/asdf/KKuTu/Server/lib/sub/jjlog.js:56:2)
+    at /Volumes/asdf/KKuTu/Server/lib/Game/slave.js:54:8:8496 [2017-7-8 00:12:26] ERROR: Error: This socket is closed
+Error: This socket is closed
+    at Socket._writeGeneric (net.js:692:19)
+    at Socket._write (net.js:743:8)
+    at doWrite (_stream_writable.js:329:12)
+    at writeOrBuffer (_stream_writable.js:315:5)
+    at Socket.Writable.write (_stream_writable.js:241:11)
+    at Socket.write (net.js:670:40)
+    at Console.log (console.js:43:16)
+    at callLog (/Volumes/asdf/KKuTu/Server/lib/sub/jjlog.js:38:10)
+    at Object.exports.error (/Volumes/asdf/KKuTu/Server/lib/sub/jjlog.js:56:2)
+    at /Volumes/asdf/KKuTu/Server/lib/Game/master.js:64:8:8496 [2017-7-8 00:12:26] ERROR: Error: This socket is closed
+Error: This socket is closed
+    at Socket._writeGeneric (net.js:692:19)
+    at Socket._write (net.js:743:8)
+    at doWrite (_stream_writable.js:329:12)
+    at writeOrBuffer (_stream_writable.js:315:5)
+    at Socket.Writable.write (_stream_writable.js:241:11)
+    at Socket.write (net.js:670:40)
+    at Console.log (console.js:43:16)
+    at callLog (/Volumes/asdf/KKuTu/Server/lib/sub/jjlog.js:38:10)
+    at Object.exports.error (/Volumes/asdf/KKuTu/Server/lib/sub/jjlog.js:56:2)
+    at /Volumes/asdf/KKuTu/Server/lib/Game/slave.js:54:8:8496 [2017-7-8 00:12:26] ERROR: Error: This socket is closed
+Error: This socket is closed
+    at Socket._writeGeneric (net.js:692:19)
+    at Socket._write (net.js:743:8)
+    at doWrite (_stream_writable.js:329:12)
+    at writeOrBuffer (_stream_writable.js:315:5)
+    at Socket.Writable.write (_stream_writable.js:241:11)
+    at Socket.write (net.js:670:40)
+    at Console.log (console.js:43:16)
+    at callLog (/Volumes/asdf/KKuTu/Server/lib/sub/jjlog.js:38:10)
+    at Object.exports.error (/Volumes/asdf/KKuTu/Server/lib/sub/jjlog.js:56:2)
+    at /Volumes/asdf/KKuTu/Server/lib/Game/master.js:64:8:8496 [2017-7-8 00:12:26] ERROR: Error: This socket is closed
+Error: This socket is closed
+    at Socket._writeGeneric (net.js:692:19)
+    at Socket._write (net.js:743:8)
+    at doWrite (_stream_writable.js:329:12)
+    at writeOrBuffer (_stream_writable.js:315:5)
+    at Socket.Writable.write (_stream_writable.js:241:11)
+    at Socket.write (net.js:670:40)
+    at Console.log (console.js:43:16)
+    at callLog (/Volumes/asdf/KKuTu/Server/lib/sub/jjlog.js:38:10)
+    at Object.exports.error (/Volumes/asdf/KKuTu/Server/lib/sub/jjlog.js:56:2)
+    at /Volumes/asdf/KKuTu/Server/lib/Game/master.js:64:8:8496 [2017-7-8 00:12:26] ERROR: Error: This socket is closed
+Error: This socket is closed
+    at Socket._writeGeneric (net.js:692:19)
+    at Socket._write (net.js:743:8)
+    at doWrite (_stream_writable.js:329:12)
+    at writeOrBuffer (_stream_writable.js:315:5)
+    at Socket.Writable.write (_stream_writable.js:241:11)
+    at Socket.write (net.js:670:40)
+    at Console.log (console.js:43:16)
+    at callLog (/Volumes/asdf/KKuTu/Server/lib/sub/jjlog.js:38:10)
+    at Object.exports.error (/Volumes/asdf/KKuTu/Server/lib/sub/jjlog.js:56:2)
+    at /Volumes/asdf/KKuTu/Server/lib/Game/master.js:64:8:8496 [2017-7-8 00:12:26] ERROR: Error: This socket is closed
+Error: This socket is closed
+    at Socket._writeGeneric (net.js:692:19)
+    at Socket._write (net.js:743:8)
+    at doWrite (_stream_writable.js:329:12)
+    at writeOrBuffer (_stream_writable.js:315:5)
+    at Socket.Writable.write (_stream_writable.js:241:11)
+    at Socket.write (net.js:670:40)
+    at Console.log (console.js:43:16)
+    at callLog (/Volumes/asdf/KKuTu/Server/lib/sub/jjlog.js:38:10)
+    at Object.exports.error (/Volumes/asdf/KKuTu/Server/lib/sub/jjlog.js:56:2)
+    at /Volumes/asdf/KKuTu/Server/lib/Game/slave.js:54:8:8496 [2017-7-8 00:12:26] ERROR: Error: This socket is closed
+Error: This socket is closed
+    at Socket._writeGeneric (net.js:692:19)
+    at Socket._write (net.js:743:8)
+    at doWrite (_stream_writable.js:329:12)
+    at writeOrBuffer (_stream_writable.js:315:5)
+    at Socket.Writable.write (_stream_writable.js:241:11)
+    at Socket.write (net.js:670:40)
+    at Console.log (console.js:43:16)
+    at callLog (/Volumes/asdf/KKuTu/Server/lib/sub/jjlog.js:38:10)
+    at Object.exports.error (/Volumes/asdf/KKuTu/Server/lib/sub/jjlog.js:56:2)
+    at /Volumes/asdf/KKuTu/Server/lib/Game/master.js:64:8:8496 [2017-7-8 00:12:26] ERROR: Error: This socket is closed
+Error: This socket is closed
+    at Socket._writeGeneric (net.js:692:19)
+    at Socket._write (net.js:743:8)
+    at doWrite (_stream_writable.js:329:12)
+    at writeOrBuffer (_stream_writable.js:315:5)
+    at Socket.Writable.write (_stream_writable.js:241:11)
+    at Socket.write (net.js:670:40)
+    at Console.log (console.js:43:16)
+    at callLog (/Volumes/asdf/KKuTu/Server/lib/sub/jjlog.js:38:10)
+    at Object.exports.error (/Volumes/asdf/KKuTu/Server/lib/sub/jjlog.js:56:2)
+    at /Volumes/asdf/KKuTu/Server/lib/Game/slave.js:54:8:8496 [2017-7-8 00:12:26] ERROR: Error: This socket is closed
+Error: This socket is closed
+    at Socket._writeGeneric (net.js:692:19)
+    at Socket._write (net.js:743:8)
+    at doWrite (_stream_writable.js:329:12)
+    at writeOrBuffer (_stream_writable.js:315:5)
+    at Socket.Writable.write (_stream_writable.js:241:11)
+    at Socket.write (net.js:670:40)
+    at Console.log (console.js:43:16)
+    at callLog (/Volumes/asdf/KKuTu/Server/lib/sub/jjlog.js:38:10)
+    at Object.exports.error (/Volumes/asdf/KKuTu/Server/lib/sub/jjlog.js:56:2)
+    at /Volumes/asdf/KKuTu/Server/lib/Game/master.js:64:8:8496 [2017-7-8 00:12:26] ERROR: Error: This socket is closed
+Error: This socket is closed
+    at Socket._writeGeneric (net.js:692:19)
+    at Socket._write (net.js:743:8)
+    at doWrite (_stream_writable.js:329:12)
+    at writeOrBuffer (_stream_writable.js:315:5)
+    at Socket.Writable.write (_stream_writable.js:241:11)
+    at Socket.write (net.js:670:40)
+    at Console.log (console.js:43:16)
+    at callLog (/Volumes/asdf/KKuTu/Server/lib/sub/jjlog.js:38:10)
+    at Object.exports.error (/Volumes/asdf/KKuTu/Server/lib/sub/jjlog.js:56:2)
+    at /Volumes/asdf/KKuTu/Server/lib/Game/slave.js:54:8:8496 [2017-7-8 00:12:26] ERROR: Error: This socket is closed
+Error: This socket is closed
+    at Socket._writeGeneric (net.js:692:19)
+    at Socket._write (net.js:743:8)
+    at doWrite (_stream_writable.js:329:12)
+    at writeOrBuffer (_stream_writable.js:315:5)
+    at Socket.Writable.write (_stream_writable.js:241:11)
+    at Socket.write (net.js:670:40)
+    at Console.log (console.js:43:16)
+    at callLog (/Volumes/asdf/KKuTu/Server/lib/sub/jjlog.js:38:10)
+    at Object.exports.error (/Volumes/asdf/KKuTu/Server/lib/sub/jjlog.js:56:2)
+    at /Volumes/asdf/KKuTu/Server/lib/Game/master.js:64:8:8496 [2017-7-8 00:12:26] ERROR: Error: This socket is closed
+Error: This socket is closed
+    at Socket._writeGeneric (net.js:692:19)
+    at Socket._write (net.js:743:8)
+    at doWrite (_stream_writable.js:329:12)
+    at writeOrBuffer (_stream_writable.js:315:5)
+    at Socket.Writable.write (_stream_writable.js:241:11)
+    at Socket.write (net.js:670:40)
+    at Console.log (console.js:43:16)
+    at callLog (/Volumes/asdf/KKuTu/Server/lib/sub/jjlog.js:38:10)
+    at Object.exports.error (/Volumes/asdf/KKuTu/Server/lib/sub/jjlog.js:56:2)
+    at /Volumes/asdf/KKuTu/Server/lib/Game/slave.js:54:8:8496 [2017-7-8 00:12:26] ERROR: Error: This socket is closed
+Error: This socket is closed
+    at Socket._writeGeneric (net.js:692:19)
+    at Socket._write (net.js:743:8)
+    at doWrite (_stream_writable.js:329:12)
+    at writeOrBuffer (_stream_writable.js:315:5)
+    at Socket.Writable.write (_stream_writable.js:241:11)
+    at Socket.write (net.js:670:40)
+    at Console.log (console.js:43:16)
+    at callLog (/Volumes/asdf/KKuTu/Server/lib/sub/jjlog.js:38:10)
+    at Object.exports.error (/Volumes/asdf/KKuTu/Server/lib/sub/jjlog.js:56:2)
+    at /Volumes/asdf/KKuTu/Server/lib/Game/master.js:64:8:8496 [2017-7-8 00:12:26] ERROR: Error: This socket is closed
+Error: This socket is closed
+    at Socket._writeGeneric (net.js:692:19)
+    at Socket._write (net.js:743:8)
+    at doWrite (_stream_writable.js:329:12)
+    at writeOrBuffer (_stream_writable.js:315:5)
+    at Socket.Writable.write (_stream_writable.js:241:11)
+    at Socket.write (net.js:670:40)
+    at Console.log (console.js:43:16)
+    at callLog (/Volumes/asdf/KKuTu/Server/lib/sub/jjlog.js:38:10)
+    at Object.exports.error (/Volumes/asdf/KKuTu/Server/lib/sub/jjlog.js:56:2)
+    at /Volumes/asdf/KKuTu/Server/lib/Game/master.js:64:8:8496 [2017-7-8 00:12:26] ERROR: Error: This socket is closed
+Error: This socket is closed
+    at Socket._writeGeneric (net.js:692:19)
+    at Socket._write (net.js:743:8)
+    at doWrite (_stream_writable.js:329:12)
+    at writeOrBuffer (_stream_writable.js:315:5)
+    at Socket.Writable.write (_stream_writable.js:241:11)
+    at Socket.write (net.js:670:40)
+    at Console.log (console.js:43:16)
+    at callLog (/Volumes/asdf/KKuTu/Server/lib/sub/jjlog.js:38:10)
+    at Object.exports.error (/Volumes/asdf/KKuTu/Server/lib/sub/jjlog.js:56:2)
+    at /Volumes/asdf/KKuTu/Server/lib/Game/slave.js:54:8:8496 [2017-7-8 00:12:26] ERROR: Error: This socket is closed
+Error: This socket is closed
+    at Socket._writeGeneric (net.js:692:19)
+    at Socket._write (net.js:743:8)
+    at doWrite (_stream_writable.js:329:12)
+    at writeOrBuffer (_stream_writable.js:315:5)
+    at Socket.Writable.write (_stream_writable.js:241:11)
+    at Socket.write (net.js:670:40)
+    at Console.log (console.js:43:16)
+    at callLog (/Volumes/asdf/KKuTu/Server/lib/sub/jjlog.js:38:10)
+    at Object.exports.error (/Volumes/asdf/KKuTu/Server/lib/sub/jjlog.js:56:2)
+    at /Volumes/asdf/KKuTu/Server/lib/Game/master.js:64:8:8496 [2017-7-8 00:12:26] ERROR: Error: This socket is closed
+Error: This socket is closed
+    at Socket._writeGeneric (net.js:692:19)
+    at Socket._write (net.js:743:8)
+    at doWrite (_stream_writable.js:329:12)
+    at writeOrBuffer (_stream_writable.js:315:5)
+    at Socket.Writable.write (_stream_writable.js:241:11)
+    at Socket.write (net.js:670:40)
+    at Console.log (console.js:43:16)
+    at callLog (/Volumes/asdf/KKuTu/Server/lib/sub/jjlog.js:38:10)
+    at Object.exports.error (/Volumes/asdf/KKuTu/Server/lib/sub/jjlog.js:56:2)
+    at /Volumes/asdf/KKuTu/Server/lib/Game/master.js:64:8:8496 [2017-7-8 00:12:26] ERROR: Error: This socket is closed
+Error: This socket is closed
+    at Socket._writeGeneric (net.js:692:19)
+    at Socket._write (net.js:743:8)
+    at doWrite (_stream_writable.js:329:12)
+    at writeOrBuffer (_stream_writable.js:315:5)
+    at Socket.Writable.write (_stream_writable.js:241:11)
+    at Socket.write (net.js:670:40)
+    at Console.log (console.js:43:16)
+    at callLog (/Volumes/asdf/KKuTu/Server/lib/sub/jjlog.js:38:10)
+    at Object.exports.error (/Volumes/asdf/KKuTu/Server/lib/sub/jjlog.js:56:2)
+    at /Volumes/asdf/KKuTu/Server/lib/Game/slave.js:54:8:8496 [2017-7-8 00:12:26] ERROR: Error: This socket is closed
+Error: This socket is closed
+    at Socket._writeGeneric (net.js:692:19)
+    at Socket._write (net.js:743:8)
+    at doWrite (_stream_writable.js:329:12)
+    at writeOrBuffer (_stream_writable.js:315:5)
+    at Socket.Writable.write (_stream_writable.js:241:11)
+    at Socket.write (net.js:670:40)
+    at Console.log (console.js:43:16)
+    at callLog (/Volumes/asdf/KKuTu/Server/lib/sub/jjlog.js:38:10)
+    at Object.exports.error (/Volumes/asdf/KKuTu/Server/lib/sub/jjlog.js:56:2)
+    at /Volumes/asdf/KKuTu/Server/lib/Game/master.js:64:8:8496 [2017-7-8 00:12:26] ERROR: Error: This socket is closed
+Error: This socket is closed
+    at Socket._writeGeneric (net.js:692:19)
+    at Socket._write (net.js:743:8)
+    at doWrite (_stream_writable.js:329:12)
+    at writeOrBuffer (_stream_writable.js:315:5)
+    at Socket.Writable.write (_stream_writable.js:241:11)
+    at Socket.write (net.js:670:40)
+    at Console.log (console.js:43:16)
+    at callLog (/Volumes/asdf/KKuTu/Server/lib/sub/jjlog.js:38:10)
+    at Object.exports.error (/Volumes/asdf/KKuTu/Server/lib/sub/jjlog.js:56:2)
+    at /Volumes/asdf/KKuTu/Server/lib/Game/master.js:64:8:8496 [2017-7-8 00:12:26] ERROR: Error: This socket is closed
+Error: This socket is closed
+    at Socket._writeGeneric (net.js:692:19)
+    at Socket._write (net.js:743:8)
+    at doWrite (_stream_writable.js:329:12)
+    at writeOrBuffer (_stream_writable.js:315:5)
+    at Socket.Writable.write (_stream_writable.js:241:11)
+    at Socket.write (net.js:670:40)
+    at Console.log (console.js:43:16)
+    at callLog (/Volumes/asdf/KKuTu/Server/lib/sub/jjlog.js:38:10)
+    at Object.exports.error (/Volumes/asdf/KKuTu/Server/lib/sub/jjlog.js:56:2)
+    at /Volumes/asdf/KKuTu/Server/lib/Game/master.js:64:8:8496 [2017-7-8 00:12:26] ERROR: Error: This socket is closed
+Error: This socket is closed
+    at Socket._writeGeneric (net.js:692:19)
+    at Socket._write (net.js:743:8)
+    at doWrite (_stream_writable.js:329:12)
+    at writeOrBuffer (_stream_writable.js:315:5)
+    at Socket.Writable.write (_stream_writable.js:241:11)
+    at Socket.write (net.js:670:40)
+    at Console.log (console.js:43:16)
+    at callLog (/Volumes/asdf/KKuTu/Server/lib/sub/jjlog.js:38:10)
+    at Object.exports.error (/Volumes/asdf/KKuTu/Server/lib/sub/jjlog.js:56:2)
+    at /Volumes/asdf/KKuTu/Server/lib/Game/slave.js:54:8:8496 [2017-7-8 00:12:26] ERROR: Error: This socket is closed
+Error: This socket is closed
+    at Socket._writeGeneric (net.js:692:19)
+    at Socket._write (net.js:743:8)
+    at doWrite (_stream_writable.js:329:12)
+    at writeOrBuffer (_stream_writable.js:315:5)
+    at Socket.Writable.write (_stream_writable.js:241:11)
+    at Socket.write (net.js:670:40)
+    at Console.log (console.js:43:16)
+    at callLog (/Volumes/asdf/KKuTu/Server/lib/sub/jjlog.js:38:10)
+    at Object.exports.error (/Volumes/asdf/KKuTu/Server/lib/sub/jjlog.js:56:2)
+    at /Volumes/asdf/KKuTu/Server/lib/Game/master.js:64:8:8496 [2017-7-8 00:12:26] ERROR: Error: This socket is closed
+Error: This socket is closed
+    at Socket._writeGeneric (net.js:692:19)
+    at Socket._write (net.js:743:8)
+    at doWrite (_stream_writable.js:329:12)
+    at writeOrBuffer (_stream_writable.js:315:5)
+    at Socket.Writable.write (_stream_writable.js:241:11)
+    at Socket.write (net.js:670:40)
+    at Console.log (console.js:43:16)
+    at callLog (/Volumes/asdf/KKuTu/Server/lib/sub/jjlog.js:38:10)
+    at Object.exports.error (/Volumes/asdf/KKuTu/Server/lib/sub/jjlog.js:56:2)
+    at /Volumes/asdf/KKuTu/Server/lib/Game/slave.js:54:8:8496 [2017-7-8 00:12:26] ERROR: Error: This socket is closed
+Error: This socket is closed
+    at Socket._writeGeneric (net.js:692:19)
+    at Socket._write (net.js:743:8)
+    at doWrite (_stream_writable.js:329:12)
+    at writeOrBuffer (_stream_writable.js:315:5)
+    at Socket.Writable.write (_stream_writable.js:241:11)
+    at Socket.write (net.js:670:40)
+    at Console.log (console.js:43:16)
+    at callLog (/Volumes/asdf/KKuTu/Server/lib/sub/jjlog.js:38:10)
+    at Object.exports.error (/Volumes/asdf/KKuTu/Server/lib/sub/jjlog.js:56:2)
+    at /Volumes/asdf/KKuTu/Server/lib/Game/master.js:64:8:8496 [2017-7-8 00:12:26] ERROR: Error: This socket is closed
+Error: This socket is closed
+    at Socket._writeGeneric (net.js:692:19)
+    at Socket._write (net.js:743:8)
+    at doWrite (_stream_writable.js:329:12)
+    at writeOrBuffer (_stream_writable.js:315:5)
+    at Socket.Writable.write (_stream_writable.js:241:11)
+    at Socket.write (net.js:670:40)
+    at Console.log (console.js:43:16)
+    at callLog (/Volumes/asdf/KKuTu/Server/lib/sub/jjlog.js:38:10)
+    at Object.exports.error (/Volumes/asdf/KKuTu/Server/lib/sub/jjlog.js:56:2)
+    at /Volumes/asdf/KKuTu/Server/lib/Game/master.js:64:8:8496 [2017-7-8 00:12:26] ERROR: Error: This socket is closed
+Error: This socket is closed
+    at Socket._writeGeneric (net.js:692:19)
+    at Socket._write (net.js:743:8)
+    at doWrite (_stream_writable.js:329:12)
+    at writeOrBuffer (_stream_writable.js:315:5)
+    at Socket.Writable.write (_stream_writable.js:241:11)
+    at Socket.write (net.js:670:40)
+    at Console.log (console.js:43:16)
+    at callLog (/Volumes/asdf/KKuTu/Server/lib/sub/jjlog.js:38:10)
+    at Object.exports.error (/Volumes/asdf/KKuTu/Server/lib/sub/jjlog.js:56:2)
+    at /Volumes/asdf/KKuTu/Server/lib/Game/slave.js:54:8:8496 [2017-7-8 00:12:26] ERROR: Error: This socket is closed
+Error: This socket is closed
+    at Socket._writeGeneric (net.js:692:19)
+    at Socket._write (net.js:743:8)
+    at doWrite (_stream_writable.js:329:12)
+    at writeOrBuffer (_stream_writable.js:315:5)
+    at Socket.Writable.write (_stream_writable.js:241:11)
+    at Socket.write (net.js:670:40)
+    at Console.log (console.js:43:16)
+    at callLog (/Volumes/asdf/KKuTu/Server/lib/sub/jjlog.js:38:10)
+    at Object.exports.error (/Volumes/asdf/KKuTu/Server/lib/sub/jjlog.js:56:2)
+    at /Volumes/asdf/KKuTu/Server/lib/Game/master.js:64:8:8496 [2017-7-8 00:12:26] ERROR: Error: This socket is closed
+Error: This socket is closed
+    at Socket._writeGeneric (net.js:692:19)
+    at Socket._write (net.js:743:8)
+    at doWrite (_stream_writable.js:329:12)
+    at writeOrBuffer (_stream_writable.js:315:5)
+    at Socket.Writable.write (_stream_writable.js:241:11)
+    at Socket.write (net.js:670:40)
+    at Console.log (console.js:43:16)
+    at callLog (/Volumes/asdf/KKuTu/Server/lib/sub/jjlog.js:38:10)
+    at Object.exports.error (/Volumes/asdf/KKuTu/Server/lib/sub/jjlog.js:56:2)
+    at /Volumes/asdf/KKuTu/Server/lib/Game/master.js:64:8:8496 [2017-7-8 00:12:26] ERROR: Error: This socket is closed
+Error: This socket is closed
+    at Socket._writeGeneric (net.js:692:19)
+    at Socket._write (net.js:743:8)
+    at doWrite (_stream_writable.js:329:12)
+    at writeOrBuffer (_stream_writable.js:315:5)
+    at Socket.Writable.write (_stream_writable.js:241:11)
+    at Socket.write (net.js:670:40)
+    at Console.log (console.js:43:16)
+    at callLog (/Volumes/asdf/KKuTu/Server/lib/sub/jjlog.js:38:10)
+    at Object.exports.error (/Volumes/asdf/KKuTu/Server/lib/sub/jjlog.js:56:2)
+    at /Volumes/asdf/KKuTu/Server/lib/Game/slave.js:54:8:8496 [2017-7-8 00:12:26] ERROR: Error: This socket is closed
+Error: This socket is closed
+    at Socket._writeGeneric (net.js:692:19)
+    at Socket._write (net.js:743:8)
+    at doWrite (_stream_writable.js:329:12)
+    at writeOrBuffer (_stream_writable.js:315:5)
+    at Socket.Writable.write (_stream_writable.js:241:11)
+    at Socket.write (net.js:670:40)
+    at Console.log (console.js:43:16)
+    at callLog (/Volumes/asdf/KKuTu/Server/lib/sub/jjlog.js:38:10)
+    at Object.exports.error (/Volumes/asdf/KKuTu/Server/lib/sub/jjlog.js:56:2)
+    at /Volumes/asdf/KKuTu/Server/lib/Game/master.js:64:8:8496 [2017-7-8 00:12:26] ERROR: Error: This socket is closed
+Error: This socket is closed
+    at Socket._writeGeneric (net.js:692:19)
+    at Socket._write (net.js:743:8)
+    at doWrite (_stream_writable.js:329:12)
+    at writeOrBuffer (_stream_writable.js:315:5)
+    at Socket.Writable.write (_stream_writable.js:241:11)
+    at Socket.write (net.js:670:40)
+    at Console.log (console.js:43:16)
+    at callLog (/Volumes/asdf/KKuTu/Server/lib/sub/jjlog.js:38:10)
+    at Object.exports.error (/Volumes/asdf/KKuTu/Server/lib/sub/jjlog.js:56:2)
+    at /Volumes/asdf/KKuTu/Server/lib/Game/master.js:64:8:8496 [2017-7-8 00:12:26] ERROR: Error: This socket is closed
+Error: This socket is closed
+    at Socket._writeGeneric (net.js:692:19)
+    at Socket._write (net.js:743:8)
+    at doWrite (_stream_writable.js:329:12)
+    at writeOrBuffer (_stream_writable.js:315:5)
+    at Socket.Writable.write (_stream_writable.js:241:11)
+    at Socket.write (net.js:670:40)
+    at Console.log (console.js:43:16)
+    at callLog (/Volumes/asdf/KKuTu/Server/lib/sub/jjlog.js:38:10)
+    at Object.exports.error (/Volumes/asdf/KKuTu/Server/lib/sub/jjlog.js:56:2)
+    at /Volumes/asdf/KKuTu/Server/lib/Game/slave.js:54:8:8496 [2017-7-8 00:12:26] ERROR: Error: This socket is closed
+Error: This socket is closed
+    at Socket._writeGeneric (net.js:692:19)
+    at Socket._write (net.js:743:8)
+    at doWrite (_stream_writable.js:329:12)
+    at writeOrBuffer (_stream_writable.js:315:5)
+    at Socket.Writable.write (_stream_writable.js:241:11)
+    at Socket.write (net.js:670:40)
+    at Console.log (console.js:43:16)
+    at callLog (/Volumes/asdf/KKuTu/Server/lib/sub/jjlog.js:38:10)
+    at Object.exports.error (/Volumes/asdf/KKuTu/Server/lib/sub/jjlog.js:56:2)
+    at /Volumes/asdf/KKuTu/Server/lib/Game/master.js:64:8:8496 [2017-7-8 00:12:26] ERROR: Error: This socket is closed
+Error: This socket is closed
+    at Socket._writeGeneric (net.js:692:19)
+    at Socket._write (net.js:743:8)
+    at doWrite (_stream_writable.js:329:12)
+    at writeOrBuffer (_stream_writable.js:315:5)
+    at Socket.Writable.write (_stream_writable.js:241:11)
+    at Socket.write (net.js:670:40)
+    at Console.log (console.js:43:16)
+    at callLog (/Volumes/asdf/KKuTu/Server/lib/sub/jjlog.js:38:10)
+    at Object.exports.error (/Volumes/asdf/KKuTu/Server/lib/sub/jjlog.js:56:2)
+    at /Volumes/asdf/KKuTu/Server/lib/Game/master.js:64:8:8496 [2017-7-8 00:12:26] ERROR: Error: This socket is closed
+Error: This socket is closed
+    at Socket._writeGeneric (net.js:692:19)
+    at Socket._write (net.js:743:8)
+    at doWrite (_stream_writable.js:329:12)
+    at writeOrBuffer (_stream_writable.js:315:5)
+    at Socket.Writable.write (_stream_writable.js:241:11)
+    at Socket.write (net.js:670:40)
+    at Console.log (console.js:43:16)
+    at callLog (/Volumes/asdf/KKuTu/Server/lib/sub/jjlog.js:38:10)
+    at Object.exports.error (/Volumes/asdf/KKuTu/Server/lib/sub/jjlog.js:56:2)
+    at /Volumes/asdf/KKuTu/Server/lib/Game/master.js:64:8:8496 [2017-7-8 00:12:26] ERROR: Error: This socket is closed
+Error: This socket is closed
+    at Socket._writeGeneric (net.js:692:19)
+    at Socket._write (net.js:743:8)
+    at doWrite (_stream_writable.js:329:12)
+    at writeOrBuffer (_stream_writable.js:315:5)
+    at Socket.Writable.write (_stream_writable.js:241:11)
+    at Socket.write (net.js:670:40)
+    at Console.log (console.js:43:16)
+    at callLog (/Volumes/asdf/KKuTu/Server/lib/sub/jjlog.js:38:10)
+    at Object.exports.error (/Volumes/asdf/KKuTu/Server/lib/sub/jjlog.js:56:2)
+    at /Volumes/asdf/KKuTu/Server/lib/Game/slave.js:54:8:8496 [2017-7-8 00:12:26] ERROR: Error: This socket is closed
+Error: This socket is closed
+    at Socket._writeGeneric (net.js:692:19)
+    at Socket._write (net.js:743:8)
+    at doWrite (_stream_writable.js:329:12)
+    at writeOrBuffer (_stream_writable.js:315:5)
+    at Socket.Writable.write (_stream_writable.js:241:11)
+    at Socket.write (net.js:670:40)
+    at Console.log (console.js:43:16)
+    at callLog (/Volumes/asdf/KKuTu/Server/lib/sub/jjlog.js:38:10)
+    at Object.exports.error (/Volumes/asdf/KKuTu/Server/lib/sub/jjlog.js:56:2)
+    at /Volumes/asdf/KKuTu/Server/lib/Game/master.js:64:8:8496 [2017-7-8 00:12:26] ERROR: Error: This socket is closed
+Error: This socket is closed
+    at Socket._writeGeneric (net.js:692:19)
+    at Socket._write (net.js:743:8)
+    at doWrite (_stream_writable.js:329:12)
+    at writeOrBuffer (_stream_writable.js:315:5)
+    at Socket.Writable.write (_stream_writable.js:241:11)
+    at Socket.write (net.js:670:40)
+    at Console.log (console.js:43:16)
+    at callLog (/Volumes/asdf/KKuTu/Server/lib/sub/jjlog.js:38:10)
+    at Object.exports.error (/Volumes/asdf/KKuTu/Server/lib/sub/jjlog.js:56:2)
+    at /Volumes/asdf/KKuTu/Server/lib/Game/master.js:64:8:8496 [2017-7-8 00:12:26] ERROR: Error: This socket is closed
+Error: This socket is closed
+    at Socket._writeGeneric (net.js:692:19)
+    at Socket._write (net.js:743:8)
+    at doWrite (_stream_writable.js:329:12)
+    at writeOrBuffer (_stream_writable.js:315:5)
+    at Socket.Writable.write (_stream_writable.js:241:11)
+    at Socket.write (net.js:670:40)
+    at Console.log (console.js:43:16)
+    at callLog (/Volumes/asdf/KKuTu/Server/lib/sub/jjlog.js:38:10)
+    at Object.exports.error (/Volumes/asdf/KKuTu/Server/lib/sub/jjlog.js:56:2)
+    at /Volumes/asdf/KKuTu/Server/lib/Game/master.js:64:8:8496 [2017-7-8 00:12:26] ERROR: Error: This socket is closed
+Error: This socket is closed
+    at Socket._writeGeneric (net.js:692:19)
+    at Socket._write (net.js:743:8)
+    at doWrite (_stream_writable.js:329:12)
+    at writeOrBuffer (_stream_writable.js:315:5)
+    at Socket.Writable.write (_stream_writable.js:241:11)
+    at Socket.write (net.js:670:40)
+    at Console.log (console.js:43:16)
+    at callLog (/Volumes/asdf/KKuTu/Server/lib/sub/jjlog.js:38:10)
+    at Object.exports.error (/Volumes/asdf/KKuTu/Server/lib/sub/jjlog.js:56:2)
+    at /Volumes/asdf/KKuTu/Server/lib/Game/master.js:64:8:8496 [2017-7-8 00:12:26] ERROR: Error: This socket is closed
+Error: This socket is closed
+    at Socket._writeGeneric (net.js:692:19)
+    at Socket._write (net.js:743:8)
+    at doWrite (_stream_writable.js:329:12)
+    at writeOrBuffer (_stream_writable.js:315:5)
+    at Socket.Writable.write (_stream_writable.js:241:11)
+    at Socket.write (net.js:670:40)
+    at Console.log (console.js:43:16)
+    at callLog (/Volumes/asdf/KKuTu/Server/lib/sub/jjlog.js:38:10)
+    at Object.exports.error (/Volumes/asdf/KKuTu/Server/lib/sub/jjlog.js:56:2)
+    at /Volumes/asdf/KKuTu/Server/lib/Game/slave.js:54:8:8496 [2017-7-8 00:12:26] ERROR: Error: This socket is closed
+Error: This socket is closed
+    at Socket._writeGeneric (net.js:692:19)
+    at Socket._write (net.js:743:8)
+    at doWrite (_stream_writable.js:329:12)
+    at writeOrBuffer (_stream_writable.js:315:5)
+    at Socket.Writable.write (_stream_writable.js:241:11)
+    at Socket.write (net.js:670:40)
+    at Console.log (console.js:43:16)
+    at callLog (/Volumes/asdf/KKuTu/Server/lib/sub/jjlog.js:38:10)
+    at Object.exports.error (/Volumes/asdf/KKuTu/Server/lib/sub/jjlog.js:56:2)
+    at /Volumes/asdf/KKuTu/Server/lib/Game/master.js:64:8:8496 [2017-7-8 00:12:26] ERROR: Error: This socket is closed
+Error: This socket is closed
+    at Socket._writeGeneric (net.js:692:19)
+    at Socket._write (net.js:743:8)
+    at doWrite (_stream_writable.js:329:12)
+    at writeOrBuffer (_stream_writable.js:315:5)
+    at Socket.Writable.write (_stream_writable.js:241:11)
+    at Socket.write (net.js:670:40)
+    at Console.log (console.js:43:16)
+    at callLog (/Volumes/asdf/KKuTu/Server/lib/sub/jjlog.js:38:10)
+    at Object.exports.error (/Volumes/asdf/KKuTu/Server/lib/sub/jjlog.js:56:2)
+    at /Volumes/asdf/KKuTu/Server/lib/Game/master.js:64:8:8496 [2017-7-8 00:12:26] ERROR: Error: This socket is closed
+Error: This socket is closed
+    at Socket._writeGeneric (net.js:692:19)
+    at Socket._write (net.js:743:8)
+    at doWrite (_stream_writable.js:329:12)
+    at writeOrBuffer (_stream_writable.js:315:5)
+    at Socket.Writable.write (_stream_writable.js:241:11)
+    at Socket.write (net.js:670:40)
+    at Console.log (console.js:43:16)
+    at callLog (/Volumes/asdf/KKuTu/Server/lib/sub/jjlog.js:38:10)
+    at Object.exports.error (/Volumes/asdf/KKuTu/Server/lib/sub/jjlog.js:56:2)
+    at /Volumes/asdf/KKuTu/Server/lib/Game/slave.js:54:8:8496 [2017-7-8 00:12:26] ERROR: Error: This socket is closed
+Error: This socket is closed
+    at Socket._writeGeneric (net.js:692:19)
+    at Socket._write (net.js:743:8)
+    at doWrite (_stream_writable.js:329:12)
+    at writeOrBuffer (_stream_writable.js:315:5)
+    at Socket.Writable.write (_stream_writable.js:241:11)
+    at Socket.write (net.js:670:40)
+    at Console.log (console.js:43:16)
+    at callLog (/Volumes/asdf/KKuTu/Server/lib/sub/jjlog.js:38:10)
+    at Object.exports.error (/Volumes/asdf/KKuTu/Server/lib/sub/jjlog.js:56:2)
+    at /Volumes/asdf/KKuTu/Server/lib/Game/master.js:64:8:8496 [2017-7-8 00:12:26] ERROR: Error: This socket is closed
+Error: This socket is closed
+    at Socket._writeGeneric (net.js:692:19)
+    at Socket._write (net.js:743:8)
+    at doWrite (_stream_writable.js:329:12)
+    at writeOrBuffer (_stream_writable.js:315:5)
+    at Socket.Writable.write (_stream_writable.js:241:11)
+    at Socket.write (net.js:670:40)
+    at Console.log (console.js:43:16)
+    at callLog (/Volumes/asdf/KKuTu/Server/lib/sub/jjlog.js:38:10)
+    at Object.exports.error (/Volumes/asdf/KKuTu/Server/lib/sub/jjlog.js:56:2)
+    at /Volumes/asdf/KKuTu/Server/lib/Game/slave.js:54:8:8496 [2017-7-8 00:12:26] ERROR: Error: This socket is closed
+Error: This socket is closed
+    at Socket._writeGeneric (net.js:692:19)
+    at Socket._write (net.js:743:8)
+    at doWrite (_stream_writable.js:329:12)
+    at writeOrBuffer (_stream_writable.js:315:5)
+    at Socket.Writable.write (_stream_writable.js:241:11)
+    at Socket.write (net.js:670:40)
+    at Console.log (console.js:43:16)
+    at callLog (/Volumes/asdf/KKuTu/Server/lib/sub/jjlog.js:38:10)
+    at Object.exports.error (/Volumes/asdf/KKuTu/Server/lib/sub/jjlog.js:56:2)
+    at /Volumes/asdf/KKuTu/Server/lib/Game/master.js:64:8
